@@ -1,0 +1,395 @@
+*{
+    padding:0%;
+    margin:0%;
+}
+body{
+   background-color:#0A0A0A;
+    color: white;
+     overflow-x: hidden;
+   overflow-y: scroll;
+}
+h1{
+    background-color:rgb(172, 64, 238);
+    width:100vw;
+    margin-top:40px;
+    margin-left: 17px;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width:100vw;
+    font-size: 50px;
+}
+#main{
+    
+     width:100vw;
+    display: flex;
+    flex-direction: column;
+}
+.bar{
+    background-color:rgb(230, 168, 238);
+    margin-top:10px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    text-align: center;
+    height:40px;
+    width:100vw;
+    border: 2px solid;
+    font-size: 20px;
+}
+.info{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.AboutInternify{
+    height:500px;
+    width:1000px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+.info img{
+    margin-top:70px;
+    border-top: 2px solid rgb(146, 143, 143);
+    border-bottom: 2px solid rgb(146, 143, 143);
+    border-left: 2px solid rgb(146, 143, 143);
+    border-right: 2px solid rgb(146, 143, 143);
+    border-radius: 20px;
+    box-shadow:
+    0 0 10px rgb(172, 64, 238),   
+    0 0 20px rgb(172, 64, 238),        
+    0 0 40px rgb(172, 64, 238),
+    0 0 80px rgb(172, 64, 238);
+}
+.Overview{
+    width:90vw;
+    min-height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left:70px;
+    
+}
+.Overview button{
+       margin-top:10px;
+       border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius:20px;
+        height:40px;
+        width:100px;
+        border:1px snow;
+        background-color: rgb(194, 141, 244);
+        box-shadow: 0 0 10px rgb(183, 76, 241),
+        0 0 10px rgb(183, 76, 241),
+        0 0 10px rgb(183, 76, 241),
+        0 0 10px rgb(183, 76, 241);
+}
+.Overview h3{
+     margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 260px;
+    text-shadow:
+    0 0 5px #ff00ff,
+    0 0 10px #ff00ff,
+    0 0 20px #ff00ff,
+    0 0 40px #ff00ff,
+    0 0 80px #ff00ff,
+    0 0 120px #ff00ff;
+}
+.Overview h2{
+    
+    font-size: 34px;
+    margin-left:90px;
+    margin-top:150px;
+
+}
+.google{
+    border: 2px solid;
+    padding:25px;
+     font-size: 23px;
+     margin-bottom: 40px;
+     margin-top: 60px;
+     background-color:rgb(117, 118, 119);
+     border-radius: 20px;
+     width:50%;
+     height:400px;
+   box-shadow:
+    0 0 20px rgb(172, 64, 238),   
+    0 0 20px rgb(172, 64, 238),        
+    0 0 20px rgb(172, 64, 238),
+    0 0 40px rgb(172, 64, 238);
+}
+.microsoft{
+    background-color:rgb(117, 118, 119);
+    padding-left: 20px;
+     font-size: 23px;
+       margin-top: 60px;
+     margin-bottom: 40px;
+     border: 2px solid;
+     border-radius: 20px;
+     width:50%;
+     height:450px;
+    box-shadow:
+    0 0 20px rgb(172, 64, 238),   
+    0 0 20px rgb(172, 64, 238),        
+    0 0 20px rgb(172, 64, 238),
+    0 0 40px rgb(172, 64, 238);
+     
+}
+.tcs{
+    border: 2px solid;
+    background-color:rgb(117, 118, 119);
+    padding-left: 20px;
+     font-size: 23px;
+       margin-top: 60px;
+     margin-bottom: 40px;
+     border-radius: 20px;
+     width:50%;
+     height:450px;
+       box-shadow:
+    0 0 20px rgb(172, 64, 238),   
+    0 0 20px rgb(172, 64, 238),        
+    0 0 20px rgb(172, 64, 238),
+    0 0 40px rgb(172, 64, 238);
+}
+.infosys{
+    border: 2px solid;
+     padding-left: 20px;
+     font-size: 23px;
+       margin-top: 60px;
+     margin-bottom: 40px;
+     background-color: rgb(117, 118, 119);
+     border-radius: 20px;
+     width:50%;
+     height:470px;
+       box-shadow:
+    0 0 20px rgb(172, 64, 238),   
+    0 0 20px rgb(172, 64, 238),        
+    0 0 20px rgb(172, 64, 238),
+    0 0 40px rgb(172, 64, 238);
+}
+.wipro{
+    border: 2px solid;
+     background-color:rgb(117, 118, 119);
+     padding-left: 20px;
+     font-size: 23px;
+       margin-top: 60px;
+     margin-bottom: 40px;
+     border-radius: 20px;
+     width:50%;
+     height:460px;
+       box-shadow:
+    0 0 20px rgb(172, 64, 238),   
+    0 0 20px rgb(172, 64, 238),        
+    0 0 20px rgb(172, 64, 238),
+    0 0 40px rgb(172, 64, 238);
+}
+.amazon{
+     background-color:rgb(117, 118, 119);
+     padding-left: 20px;
+     border: 2px solid;
+       margin-top: 60px;
+     margin-bottom: 20px;
+     font-size: 23px;
+     border-radius: 20px;
+     width:50%;
+     height:470px;
+      box-shadow:
+    0 0 20px rgb(172, 64, 238),   
+    0 0 20px rgb(172, 64, 238),        
+    0 0 20px rgb(172, 64, 238),
+    0 0 40px rgb(172, 64, 238);
+}
+h3{
+     margin-top:100px;
+     margin-left: 400px;
+     font-size: 40px;
+}
+.categories{
+     display: flex;
+     flex-wrap: wrap;
+     margin-left: 20%;
+     width:70vw;
+     gap:60px;
+}
+.grid1{
+     margin-top:50px;
+     margin-left: 50px;
+     gap:10px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     background-color: rgb(71, 69, 69);
+     color:rgb(240, 238, 235);
+     padding:10px;
+     border:2px solid;
+     border-radius: 15px;
+     height:500px;
+     width:250px;
+     box-shadow:
+     0 0 10px rgb(172, 64, 238),   
+     0 0 20px rgb(172, 64, 238),        
+     0 0 40px rgb(172, 64, 238),
+     0 0 30px rgb(172, 64, 238);
+}
+.grid1 img{
+     border-radius: 20px;
+}
+
+.grid2{
+     margin-top:50px;
+     margin-left: 20px;
+     gap:10px;
+     display: flex;
+     padding:10px;
+     flex-direction: column;
+     align-items: center;
+     background-color: rgb(71, 69, 69);
+     color:rgb(240, 238, 235);
+     border:2px solid;
+     border-radius: 15px;
+     height:500px;
+     width:250px;
+     box-shadow:
+     0 0 10px rgb(172, 64, 238),   
+     0 0 20px rgb(172, 64, 238),         
+     0 0 40px rgb(172, 64, 238),
+     0 0 30px rgb(172, 64, 238);
+}
+.grid2 img{
+     border-radius: 20px;
+}
+
+.grid3{
+     margin-top:50px;
+     margin-left: 20px;
+     gap:10px;
+     display: flex;
+     padding:10px;
+     flex-direction: column;
+     align-items: center;
+     background-color: rgb(71, 69, 69);
+     color:rgb(240, 238, 235);
+     border:2px solid;
+     border-radius: 15px;
+     height:500px;
+     width:250px;
+     box-shadow:
+      0 0 10px rgb(172, 64, 238),   
+     0 0 20px rgb(172, 64, 238),        
+     0 0 40px rgb(172, 64, 238),
+     0 0 30px rgb(172, 64, 238);
+}
+.grid3 img{
+     border-radius: 20px;
+}
+.grid4{
+     margin-left: 50px;
+     gap:10px;
+     display: flex;
+     padding:10px;
+     flex-direction: column;
+     align-items: center;
+     background-color: rgb(71, 69, 69);
+     color:rgb(240, 238, 235);
+     border:2px solid;
+   border-radius: 15px;
+ height:500px;
+ width:250px;
+   box-shadow:
+    0 0 10px rgb(172, 64, 238),   
+    0 0 20px rgb(172, 64, 238),        
+    0 0 40px rgb(172, 64, 238),
+    0 0 30px rgb(172, 64, 238);
+}
+.grid4 img{
+    border-radius: 20px;
+}
+
+.grid5{
+
+     margin-left: 20px;
+     gap:10px;
+     display: flex;
+     padding:10px;
+     flex-direction: column;
+  align-items: center;
+    background-color: rgb(71, 69, 69);
+    color:rgb(240, 238, 235);
+   border:2px solid;
+   border-radius: 15px;
+ height:500px;
+ width:250px;
+    box-shadow:
+     0 0 10px rgb(172, 64, 238),   
+    0 0 20px rgb(172, 64, 238),        
+    0 0 40px rgb(172, 64, 238),
+    0 0 30px rgb(172, 64, 238);
+}
+.grid5 img{
+    border-radius: 20px;
+}
+.grid6{
+
+    margin-left: 20px;
+     gap:10px;
+     display: flex;
+     padding:10px;
+     flex-direction: column;
+  align-items: center;
+    background-color: rgb(71, 69, 69);
+    color:rgb(240, 238, 235);
+   border:2px solid;
+   border-radius: 15px;
+ height:500px;
+ width:250px;
+    box-shadow:
+    0 0 10px rgb(172, 64, 238),   
+    0 0 20px rgb(172, 64, 238),        
+    0 0 40px rgb(172, 64, 238),
+    0 0 30px rgb(172, 64, 238);
+}
+.grid6 img{
+    border-radius: 20px;
+}
+.categories button{
+     margin-top:10px;
+       border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius:20px;
+        height:40px;
+        width:100px;
+        border:1px snow;
+        background-color: rgb(194, 141, 244);
+        box-shadow: 0 0 10px rgb(183, 76, 241),
+        0 0 10px rgb(183, 76, 241),
+        0 0 10px rgb(183, 76, 241),
+        0 0 10px rgb(183, 76, 241);
+
+}
+
+#Home:hover{
+
+ background-color: aqua;
+}
+#Contact:hover{
+ background-color: aqua;
+}
+#Internship:hover{
+ background-color: aqua;
+}
+#About:hover{
+ background-color: aqua;
+}
+footer{
+  
+  margin-top:60px;
+  font-size:60px;
+  margin-bottom:50px;
+}
